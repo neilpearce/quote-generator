@@ -1,0 +1,22 @@
+.header {
+     display: flex;
+     justify-content: center;
+}
+
+.header__title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 2rem;
+    
+      
+       &::after {
+            content: '';
+            display: block;
+            width: 5rem;
+            height: 0;
+            margin: auto;
+            margin-bottom: 3rem;
+            margin-top: 1rem;
+            border-bottom: 4px solid $green;
+       }
+}
